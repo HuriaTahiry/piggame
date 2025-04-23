@@ -1,50 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-@author: Huria Tahiry <-- Put your name here.
+@author: Huria Tahiry 
 """
 import random
 
-"""
-function: take_turn()
-This function lets a player take a turn in the 1-die game.
-
-As shown in the video, a player turn requires the player to
-make at least one roll of the die.  If the player rolls a 1,
-then the turn ends with no points earned.  If the player rolls
-anything else, then the player can choose to keep rolling or
-to stop.  When the player chooses to stop, the player earns the
-sum of all rolls this turn.
-
-Use a console input of r to indicate to keep rolling and use a
-console input of anything else to indicate to stop rolling.
-
-Ensure to print the accumulated turn score each time the player
-rolls any value other than 1.
-
-Return the number of points earned on the turn.
-
-Note: the initial code given would be just return 0
-"""
 
 
-def take_turn():
-    return 0  # replace this with your code
-
-
-"""
-function: play_one_turn_pig()
-- This function is already completed.  Inspect it to help you
-  implement the next function.
-- This function lets a player play a very short Pig game, which
-  ends after exactly 1 turn.
-
-Ensure to print "1-Turn Pig Time!" before starting the game
-and ensure to print the score earned by the player at game's end.
-
-Note: we might even give this to them to make it easier to test
-the take_turn_one_die() implementation.
-"""
 
 
 def play_one_turn_pig():
@@ -65,18 +27,7 @@ def play_one_turn_pig():
     print('You scored', goal_score)
 
 
-"""
-function: play_solitaire_pig()
-This function lets a player play a solitaire Pig game.
 
-Prompt the player for a target score, then let the player
-take turns until they reach or exceed that score.
-
-Ensure to print "Solitaire Pig Time!" before starting the game,
-print the player's score and turn number after each turn, and
-print the final score when the game ends.  Refer to the video
-for guidance or example.
-"""
 
 
 def play_solitaire_pig():
@@ -100,21 +51,7 @@ def play_solitaire_pig():
     print('Solitaire Pig Time!')
 
 
-"""
-function: play_heads_up_pig()
-This function lets 2 players play a heads-up Pig game.
 
-This should proceed the same way as solitaire except alternating
-between player 1 and player 2.  If player 1 exceeds the target score,
-then player 2 gets one more turn before the game ends.  If player 2
-exceeds the target score, then the game ends right away.
-
-Ensure to print "Heads-up Pig Time!" before starting the game,
-print which player's turn it is before starting the turn,
-print each player's score and the round number at the end of
-the round, and print both scores at game end.  Refer to the video
-for guidance or example.
-"""
 
 
 def play_heads_up_pig():
@@ -219,17 +156,7 @@ def play_heads_up_pig():
     print('Heads-up Pig Time!')
 
 
-''' Change no code below here '''
 
-
-
-
-''' Here be dragons '''
-
-
-
-
-''' Don't change this '''
 
 
 def start():
